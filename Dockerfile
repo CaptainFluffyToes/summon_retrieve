@@ -8,4 +8,4 @@ RUN chmod +x /opt/scripts/summon_retrieve.sh &&\
 
 WORKDIR /opt/scripts
 
-CMD summon sh summon_retrieve.sh
+CMD summon -f /etc/summon/secrets.yml sh summon_retrieve.sh
